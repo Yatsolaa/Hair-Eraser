@@ -1,0 +1,54 @@
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+
+    .image-block {
+        
+        .image-block__image{
+            border-radius: 10px;
+        }
+    }
+
+    .text-block{
+        font-family: 'Helvetica Neue';
+        display: flex;
+        flex-direction: column;
+        row-gap: 32px;
+
+        .text-block__header{
+            font-family: 'Helvetica Neue';
+            font-weight: 400;
+            font-size: 50px;
+            line-height: 54px;
+            color: #151515;
+        }
+
+        .text-block__paragraph-wrapper{
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+
+            .text-block__paragraph{
+                font-family: 'Helvetica Neue';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                color: #4F4F4F;
+            }
+
+            .text-block__paragraph_bold{
+                color: #151515;
+                display: inline;
+                font-weight: 700;
+                background-color: #F0E4DE;
+            }
+        }
+    }
+
+    .text-block_width{
+        max-width: 746px;
+    }
+
+}
