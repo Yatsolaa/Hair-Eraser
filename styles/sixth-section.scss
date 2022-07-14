@@ -1,0 +1,36 @@
+.sixth-section{
+    padding: 60px 0;
+
+    .advantages-wrapper_columns{
+        flex-direction: column;
+
+        .advantages{
+            flex-direction: row;
+            align-items: center;
+            column-gap: 50px;
+
+            .advantages__text{
+                display: flex;
+                flex-direction: column;
+                row-gap: 32px;
+
+                .advantages__list-wrapper{
+                    display: flex;
+
+                    .advantages__list{
+                        width: 50%;
+                    }
+                }
+            }
+
+            .advantages__image{
+                img{
+                    max-height: 300px;
+                }
+            }
+        }
+
+
+    }
+}
+
