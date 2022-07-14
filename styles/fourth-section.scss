@@ -1,0 +1,28 @@
+.fourth-section{
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    column-gap: 55px;
+
+    .text-block{
+
+        .text-block__video{
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 26px;
+            text-decoration: underline;
+            display: flex;
+            align-items: center;
+            column-gap: 8px;
+            color: #101010;
+        }
+    }
+
+    .image-block{
+        
+        img{
+            max-width: 586px;
+            max-height: 586px;
+        }
+    }
+}

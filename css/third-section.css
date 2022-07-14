@@ -1,29 +1,30 @@
 .third-section {
   padding: 60px 0;
 }
-.third-section .results {
+
+.results {
   display: flex;
   align-items: center;
   justify-content: space-between;
   column-gap: 22px;
 }
-.third-section .results .results__text {
+.results .results__text {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
   text-align: center;
 }
-.third-section .results .results__text .results__header {
+.results .results__text .results__header {
   font-weight: 400;
   font-size: 30px;
   line-height: 60px;
   color: #333333;
 }
-.third-section .results .results__text .results__paragraph {
+.results .results__text .results__paragraph {
   font-size: 14px;
   line-height: 21px;
   color: #4F4F4F;
 }
-.third-section .results .results__image img {
+.results .results__image img {
   max-height: 300px;
 }

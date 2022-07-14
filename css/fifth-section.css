@@ -1,0 +1,14 @@
+.fifth-section {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 40px;
+}
+.fifth-section .text-block_max-width {
+  max-width: 550px;
+  text-align: center;
+}
+.fifth-section .image-block_max-width img {
+  max-width: 1200px;
+}
