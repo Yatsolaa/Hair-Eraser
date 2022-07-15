@@ -55,3 +55,34 @@
         }
     }
 }
+
+@media(max-width: 768px){
+
+    .section-header{
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .advantages-wrapper{
+        flex-direction: column;
+
+        .advantages{
+            align-items: center;
+
+            .advantages__header{
+                font-size: 26px !important;
+                line-height: 30px !important;
+            }
+    
+            .advantages__paragraph{
+                font-size: 14px !important;
+                line-height: 21px !important;
+            }
+    
+            .advantages__list{
+                font-size: 14px !important;
+                line-height: 26px !important;
+            }
+        }
+    }
+}

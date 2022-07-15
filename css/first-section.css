@@ -45,3 +45,19 @@
 .text-block_width {
   max-width: 746px;
 }
+
+@media (max-width: 768px) {
+  .first-section {
+    flex-direction: column-reverse;
+    row-gap: 25px;
+  }
+
+  .text-block .text-block__header {
+    font-size: 34px;
+    line-height: 38px;
+  }
+  .text-block .text-block__paragraph {
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

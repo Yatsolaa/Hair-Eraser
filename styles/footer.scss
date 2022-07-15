@@ -83,3 +83,10 @@
         }
     }
 }
+
+@media (max-width: 768px){
+    .accordion{
+        flex-direction: column;
+        row-gap: 25px;
+    }
+}

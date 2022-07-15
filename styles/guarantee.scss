@@ -26,3 +26,19 @@
         color: #4F4F4F;
     }
 }
+
+@media (max-width: 768px){
+    .info{
+
+        .info__header{
+            font-size: 24px !important;
+            line-height: 30px !important;
+            text-align: center;
+        }
+
+        .info__text{
+            flex-direction: column;
+            row-gap: 25px;
+        }
+    }
+}

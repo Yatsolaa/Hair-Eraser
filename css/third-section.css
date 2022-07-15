@@ -30,3 +30,25 @@
   max-width: 100%;
   border-radius: 10px;
 }
+
+@media (max-width: 768px) {
+  .results {
+    flex-direction: column;
+    row-gap: 24px;
+  }
+  .results .results__text {
+    row-gap: 16px !important;
+  }
+  .results .results__text .results__header {
+    font-size: 24px !important;
+    line-height: 60px !important;
+  }
+  .results .results__text .results__paragraph {
+    font-size: 14px !important;
+    line-height: 18px !important;
+  }
+
+  .results_reverse {
+    flex-direction: column-reverse;
+  }
+}

@@ -37,3 +37,20 @@
     }
 }
 
+@media (max-width: 768px){
+    .advantages-wrapper{
+        row-gap: 25px;
+
+        .advantages{
+            flex-direction: column !important;
+    
+            .advantages__list-wrapper{
+                flex-direction: column !important;
+            }
+        }
+    
+        .advantages_reverse{
+            flex-direction: column-reverse !important;
+        }
+    }
+}
