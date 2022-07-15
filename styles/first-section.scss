@@ -1,12 +1,14 @@
 .first-section{
     display: flex;
-    justify-content: space-between;
-    padding: 60px 0;
+    align-items: center;
+    column-gap: 60px;
+    padding: 60px 15px;
 
     .image-block {
         
         .image-block__image{
             border-radius: 10px;
+            max-width: 100%;
         }
     }
 
@@ -51,4 +53,5 @@
 
 .text-block_width{
     max-width: 746px;
+
 }

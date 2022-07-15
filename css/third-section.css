@@ -1,5 +1,5 @@
 .third-section {
-  padding: 60px 0;
+  padding: 60px 15px;
 }
 
 .results {
@@ -27,4 +27,6 @@
 }
 .results .results__image img {
   max-height: 300px;
+  max-width: 100%;
+  border-radius: 10px;
 }

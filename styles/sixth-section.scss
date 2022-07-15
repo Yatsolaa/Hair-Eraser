@@ -1,5 +1,5 @@
 .sixth-section{
-    padding: 60px 0;
+    padding: 60px 15px;
 
     .advantages-wrapper_columns{
         flex-direction: column;
@@ -24,8 +24,11 @@
             }
 
             .advantages__image{
+                
                 img{
                     max-height: 300px;
+                    border-radius: 10px;
+                    max-width: 100%;
                 }
             }
         }

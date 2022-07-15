@@ -1,5 +1,5 @@
 .fifth-section{
-    padding: 60px 0;
+    padding: 60px 15px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -11,9 +11,11 @@
     }
 
     .image-block_max-width{
+        max-width: 1200px;
 
         img{
-            max-width: 1200px;
+            max-width: 100%;
+            border-radius: 10px;
         }
     }
 }

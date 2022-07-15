@@ -1,0 +1,85 @@
+.footer{
+    padding: 60px 15px;
+
+    .accordion{
+        display: flex;
+        column-gap: 20px;
+        justify-content: space-between;
+        
+        .accordion-item{
+            width: 100%;
+
+            .accordion-item__trigger{
+                padding-bottom: 15px;
+                border-bottom: 1px solid #EBEBEB;;
+                display: flex;
+                justify-content: space-between;
+
+                .accordion-item__header{
+                    font-size: 14px;
+                    line-height: 19px;
+                    color: #333333;
+                }
+                
+                .plus{
+                    transition: all 0.2s;
+                    display: inline-block;
+                    width: 2px;
+                    height: 15px;
+                    background-color: #292929;;
+                    margin-right: -1px;
+                }
+
+                .minus{
+                    display: inline-block;
+                    width: 16px;
+                    height: 2px;
+                    background-color: #292929;;
+                    margin: 0 0 6px -13px;
+                }
+            }
+
+            .accordion-item__content{
+                display: none;
+
+                .accordion-item__list{
+                    font-size: 14px;
+                    line-height: 19px;
+                    color: #333333;
+                    text-decoration: underline;
+
+                    li{
+                        list-style-type: none;
+                        margin-top: 20px;
+                    }
+                }
+            }
+        }
+
+        .accordion-item--active{
+
+            .accordion-item__trigger{
+                .plus{
+                    transition: all 0.2s;
+                    height: 2px;
+                    margin: 0 0 6px -13px;
+                }
+            }
+
+            .accordion-item__content{
+                display: block;
+            }
+        }
+    }
+
+    .social-media{
+        margin-top: 60px;
+        display: flex;
+        column-gap: 20px;
+        justify-content: center;
+
+        .social-media__icon{
+            
+        }
+    }
+}
