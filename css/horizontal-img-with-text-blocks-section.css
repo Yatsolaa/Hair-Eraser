@@ -13,6 +13,7 @@
   flex-direction: column;
   row-gap: 24px;
   text-align: center;
+  width: 50%;
 }
 .results .results__text .results__header {
   font-weight: 400;
@@ -25,9 +26,12 @@
   line-height: 21px;
   color: #4F4F4F;
 }
+.results .results__image {
+  width: 50%;
+}
 .results .results__image img {
   max-height: 300px;
-  max-width: 100%;
+  width: 100%;
   border-radius: 10px;
 }
 
@@ -37,6 +41,7 @@
     row-gap: 24px;
   }
   .results .results__text {
+    width: 100%;
     row-gap: 16px !important;
   }
   .results .results__text .results__header {
@@ -46,6 +51,9 @@
   .results .results__text .results__paragraph {
     font-size: 14px !important;
     line-height: 18px !important;
+  }
+  .results .results__image {
+    width: 100%;
   }
 
   .results_reverse {

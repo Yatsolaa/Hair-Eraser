@@ -7,7 +7,7 @@
     margin-bottom: 40px;
 }
 
-.second-section{
+.three-vertical-blocks-section{
     padding: 60px 15px;
 }
 
@@ -24,6 +24,8 @@
 
         .advantages__image{
             img{
+                display: block;
+                margin: 0 auto;
                 border-radius: 8px;
                 max-width: 100%;
             }

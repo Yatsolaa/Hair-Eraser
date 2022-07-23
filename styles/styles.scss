@@ -24,12 +24,19 @@ body{
     src: url(../Fonts/HelveticaNeue.ttf);
 }
 
-@import "first-section.scss";
-@import "second-section.scss";
-@import "third-section.scss";
-@import "fourth-section.scss";
-@import "fifth-section.scss";
-@import "sixth-section.scss";
+/* 1 */
+@import "image-with-text-section.scss";
+/* 2 */
+@import "three-vertical-blocks-section.scss";
+/* 3 */
+@import "horizontal-img-with-text-blocks-section.scss";
+/* 4 */
+@import "text-with-video-section.scss";
+/* 5 */
+@import "big-image-section.scss";
+/* 6 */
+@import "two-horizontal-blocks-section.scss";
+/*  */
 @import "how-to-use.scss";
 @import "guarantee.scss";
 @import "footer.scss";

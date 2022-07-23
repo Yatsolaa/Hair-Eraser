@@ -23,6 +23,8 @@
   width: 100%;
 }
 .advantages-wrapper .advantages .advantages__image img {
+  display: block;
+  margin: 0 auto;
   border-radius: 8px;
   max-width: 100%;
 }

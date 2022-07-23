@@ -1,4 +1,4 @@
-.third-section{
+.horizontal-img-with-text-blocks-section{
     padding: 60px 15px;
 }
 
@@ -13,6 +13,7 @@
         flex-direction: column;
         row-gap: 24px;
         text-align: center;
+        width: 50%;
 
         .results__header{
             font-weight: 400;
@@ -29,9 +30,11 @@
     }
 
     .results__image{
+        width: 50%;
+
         img{
             max-height: 300px;
-            max-width: 100%;
+            width: 100%;
             border-radius: 10px;
         }
     }
@@ -43,6 +46,7 @@
         row-gap: 24px;
 
         .results__text{
+            width: 100%;
             row-gap: 16px !important;
 
             .results__header{
@@ -54,6 +58,10 @@
                 font-size: 14px !important;
                 line-height: 18px !important;
             }
+        }
+
+        .results__image{
+            width: 100%;
         }
     }
 

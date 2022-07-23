@@ -1,4 +1,4 @@
-.first-section{
+.image-with-text-section{
     display: flex;
     align-items: center;
     column-gap: 60px;
@@ -15,6 +15,7 @@
 }
 
 .text-block{
+    flex-shrink: 8;
     font-family: 'Helvetica Neue';
     display: flex;
     flex-direction: column;
@@ -52,11 +53,11 @@
 }
 
 .text-block_width{
-    max-width: 746px;
+    /* max-width: 746px; */
 }
 
 @media (max-width: 768px) {
-    .first-section{
+    .image-with-text-section{
         flex-direction: column-reverse;
         row-gap: 25px;
     }

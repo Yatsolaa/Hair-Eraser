@@ -1,4 +1,4 @@
-.sixth-section{
+.two-horizontal-blocks-section{
     padding: 60px 15px;
 
     .advantages-wrapper_columns{
@@ -13,6 +13,7 @@
                 display: flex;
                 flex-direction: column;
                 row-gap: 32px;
+                width: 50%;
 
                 .advantages__list-wrapper{
                     display: flex;
@@ -24,11 +25,12 @@
             }
 
             .advantages__image{
+                width: 50%;
                 
                 img{
                     max-height: 300px;
                     border-radius: 10px;
-                    max-width: 100%;
+                    width: 100%;
                 }
             }
         }
@@ -43,6 +45,14 @@
 
         .advantages{
             flex-direction: column !important;
+
+            .advantages__text{
+                width: 100% !important;
+            }
+
+            .advantages__image{
+                width: 100% !important;
+            }
     
             .advantages__list-wrapper{
                 flex-direction: column !important;
