@@ -24,6 +24,8 @@ body{
     src: url(../Fonts/HelveticaNeue.ttf);
 }
 
+
+@import "slider-section.scss";
 /* 1 */
 @import "image-with-text-section.scss";
 /* 2 */
@@ -36,7 +38,8 @@ body{
 @import "big-image-section.scss";
 /* 6 */
 @import "two-horizontal-blocks-section.scss";
-/*  */
+/* header */
+@import "header.scss";
 @import "how-to-use.scss";
 @import "guarantee.scss";
 @import "footer.scss";

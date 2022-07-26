@@ -5,11 +5,122 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- styles -->
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/slider-section.css">
+    <link rel="stylesheet" href="./slick/slick.css">
 </head>
 <body>
 
+    <!-- header -->
+
+    <header class="header">
+        <div class="container header-wrapper">
+            <nav class="navigation-list-wrapper">
+                <ul class="navigation-list">
+                    <li class="home"><a class="current" href="#">Home</a></li>
+                    <li class="shop"><a href="#">Shop</a></li>
+                    <li class="about"><a href="#">About</a></li>
+                    <li class="contact"><a href="#">Contact</a></li>
+                </ul>
+
+                <div class="lines">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+            <div class="logo">
+                <img src="./img/soak.svg" alt="logo">
+            </div>
+            <div class="buttons">
+                <a href="#"><img src="./img/search.png" alt="search"></a>
+                <a href="#"><img src="./img/basket.png" alt="basket link"></a>
+            </div>
+        </div>
+    </header>
+
     <main>
+
+        <section class="container section-with-slider">
+
+            <div class="slider">
+                
+                <div class="slider-for">
+                    <div class="slider__item">
+                        <img src="./img/slider-item1.jpg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="./img/slider-item2.jpg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="./img/slider-item3.jpg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="./img/slider-item4.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="slider-nav">
+                    <div class="slider__item">
+                        <img src="./img/slider-item1.jpg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="./img/slider-item2.jpg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="./img/slider-item3.jpg" alt="">
+                    </div>
+                    <div class="slider__item">
+                        <img src="./img/slider-item4.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="buy-block">
+                <div class="buy-block__text">
+                    <h2 class="buy-block__header">Crystal Hair Eraser</h2>
+
+                    <div class="price-and-rating">
+                        <div class="price">
+                            <p class="current-price">$29.99</p>
+                            <p class="old-price">$32.99</p>
+                        </div>
+                        <div class="rating">
+                            <div class="rating-stars">
+                                <img src="./img/star.png" alt="">
+                                <img src="./img/star.png" alt="">
+                                <img src="./img/star.png" alt="">
+                                <img src="./img/star.png" alt="">
+                                <img src="./img/half-filled-star.png" alt="">
+                            </div>
+                            <p class="rating-text"><span>5.0</span>  (1,539 reviews)</p>
+                        </div>
+                    </div>
+
+                    <p class="text-block__paragraph">Our Instant Crystal Hair Eraser is here to save your legs. Using innovative Nano-Crystalline technology, the eraser clumps hair together and gently removes it from your skin, while also exfoliating to reveal silky smooth skin below.
+                        <br>
+                        <span class="text-block__paragraph_bold">Remove hair in minutes, without irritation. No shave necessary.</span>
+                    </p>
+                </div>
+
+                <div class="buy-block__buttons">
+                    <button id="first" class="button buy-button">Buy 1</button>
+                    <button id="second" class="button buy-button">Buy 2 - save 55%</button>
+                    <button id="third" class="button buy-button">Buy 3 - save 67%</button>
+                    <button class="button add-to-cart-button">add to cart</button>
+                </div>
+            </div>
+
+        </section>
+
+        <span class="gray-line"></span>
 
         <!-- first section -->
 
@@ -542,5 +653,6 @@
     
 </body>
 <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script src="./slick/slick.min.js"></script>
 <script src="./script.js"></script>
 </html>
