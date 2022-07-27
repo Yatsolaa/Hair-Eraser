@@ -24,11 +24,12 @@ body {
   src: url(../Fonts/HelveticaNeue.ttf);
 }
 .section-with-slider {
-  padding: 60px 0;
+  padding: 60px 15px;
   display: flex;
   column-gap: 60px;
 }
 .section-with-slider .slider {
+  width: 50%;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -60,8 +61,7 @@ body {
 }
 .section-with-slider .slider .slider-nav .slider__item img {
   object-fit: cover;
-  height: 100%;
-  width: 86px;
+  width: 100%;
   border-radius: 4px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -87,6 +87,7 @@ body {
   background-position: center;
 }
 .section-with-slider .buy-block {
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,11 +102,12 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 50px;
-  line-height: 38px;
+  line-height: 50px;
 }
 .section-with-slider .buy-block .buy-block__text .price-and-rating {
   display: flex;
   justify-content: space-between;
+  column-gap: 20px;
 }
 .section-with-slider .buy-block .buy-block__text .price-and-rating .price {
   display: flex;
@@ -183,6 +185,7 @@ body {
     row-gap: 25px;
   }
   .section-with-slider .slider {
+    width: 100%;
     flex-direction: column;
     row-gap: 8px;
   }
@@ -210,6 +213,9 @@ body {
     height: 36px;
     width: 36px;
     transform: rotate(-90deg);
+  }
+  .section-with-slider .buy-block {
+    width: 100%;
   }
   .section-with-slider .buy-block .buy-block__text .buy-block__header {
     font-size: 34px;
@@ -544,6 +550,7 @@ body {
 /* header */
 .header {
   border-bottom: 1px solid #E2E6EC;
+  padding: 0 15px;
 }
 .header .header-wrapper {
   display: flex;
@@ -577,12 +584,14 @@ body {
   font-weight: 700;
 }
 .header .header-wrapper .navigation-list-wrapper .lines {
-  /* display: none; */
+  display: none;
 }
 .header .header-wrapper .navigation-list-wrapper .lines span {
-  width: 15px;
+  border-radius: 2px;
+  display: block;
+  background-color: #333333;
+  width: 22px;
   height: 3px;
-  margin-top: 3px;
 }
 .header .header-wrapper .buttons {
   text-align: right;
@@ -592,6 +601,37 @@ body {
   padding: 0 10px;
 }
 
+@media (max-width: 768px) {
+  .header {
+    position: relative;
+  }
+  .header .header-wrapper .navigation-list-wrapper .lines {
+    display: block;
+  }
+  .header .header-wrapper .navigation-list-wrapper .navigation-list {
+    position: absolute;
+    height: 100vh;
+    width: 80vw;
+    left: -100%;
+    z-index: 100;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.9;
+    transition: all 0.3s;
+  }
+  .header .header-wrapper .navigation-list-wrapper .navigation-list li {
+    margin-top: 20px;
+    padding: 30px 20px 20px;
+  }
+  .header .header-wrapper .navigation-list-wrapper .navigation-list_active {
+    top: 0;
+    left: 0;
+  }
+  .header .header-wrapper .buttons a {
+    padding: 0;
+  }
+}
 .how-to-use-section {
   padding: 60px 15px;
   background-color: #F0E4DE;

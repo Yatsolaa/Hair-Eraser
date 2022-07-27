@@ -1,9 +1,10 @@
 .section-with-slider {
-  padding: 60px 0;
+  padding: 60px 15px;
   display: flex;
   column-gap: 60px;
 }
 .section-with-slider .slider {
+  width: 50%;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -35,8 +36,7 @@
 }
 .section-with-slider .slider .slider-nav .slider__item img {
   object-fit: cover;
-  height: 100%;
-  width: 86px;
+  width: 100%;
   border-radius: 4px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -62,6 +62,7 @@
   background-position: center;
 }
 .section-with-slider .buy-block {
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -76,11 +77,12 @@
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 50px;
-  line-height: 38px;
+  line-height: 50px;
 }
 .section-with-slider .buy-block .buy-block__text .price-and-rating {
   display: flex;
   justify-content: space-between;
+  column-gap: 20px;
 }
 .section-with-slider .buy-block .buy-block__text .price-and-rating .price {
   display: flex;
@@ -158,6 +160,7 @@
     row-gap: 25px;
   }
   .section-with-slider .slider {
+    width: 100%;
     flex-direction: column;
     row-gap: 8px;
   }
@@ -165,7 +168,7 @@
     max-width: 100%;
   }
   .section-with-slider .slider .slider-for img {
-    max-width: 343px;
+    max-width: 530px;
     display: block;
     margin: 0 auto;
   }
@@ -186,8 +189,15 @@
     width: 36px;
     transform: rotate(-90deg);
   }
+  .section-with-slider .buy-block {
+    width: 100%;
+  }
+  .section-with-slider .buy-block .buy-block__text {
+    row-gap: 21px;
+  }
   .section-with-slider .buy-block .buy-block__text .buy-block__header {
     font-size: 34px;
+    line-height: 38px;
   }
   .section-with-slider .buy-block .buy-block__text .price-and-rating .price .current-price {
     font-size: 24px;

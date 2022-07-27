@@ -57,7 +57,7 @@ $(document).ready(function(){
 
         responsive: [
             {
-              breakpoint: 768,
+              breakpoint: 769,
               settings: {
                 vertical: false,
                 verticalSwiping: false,
