@@ -1,3 +1,4 @@
+@import "../slick/slick.css";
 * {
   margin: 0;
   padding: 0;
@@ -193,7 +194,7 @@ body {
     max-width: 100%;
   }
   .section-with-slider .slider .slider-for img {
-    max-width: 343px;
+    max-width: 530px;
     display: block;
     margin: 0 auto;
   }
@@ -217,8 +218,12 @@ body {
   .section-with-slider .buy-block {
     width: 100%;
   }
+  .section-with-slider .buy-block .buy-block__text {
+    row-gap: 21px;
+  }
   .section-with-slider .buy-block .buy-block__text .buy-block__header {
     font-size: 34px;
+    line-height: 38px;
   }
   .section-with-slider .buy-block .buy-block__text .price-and-rating .price .current-price {
     font-size: 24px;
@@ -587,6 +592,7 @@ body {
   display: none;
 }
 .header .header-wrapper .navigation-list-wrapper .lines span {
+  margin-bottom: 3px;
   border-radius: 2px;
   display: block;
   background-color: #333333;
@@ -780,6 +786,7 @@ body {
   column-gap: 20px;
   justify-content: center;
 }
+
 @media (max-width: 768px) {
   .accordion {
     flex-direction: column;

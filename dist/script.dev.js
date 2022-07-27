@@ -1,10 +1,10 @@
 "use strict";
 
-/* document.querySelectorAll('.accordion-item__trigger').forEach((item) => 
-    item.addEventListener('click', () => {
-        item.parentNode.classList.toggle('accordion-item--active'); 
-    })
-); */
+document.querySelectorAll('.accordion-item__trigger').forEach(function (item) {
+  return item.addEventListener('click', function () {
+    item.parentNode.classList.toggle('accordion-item--active');
+  });
+});
 window.addEventListener('DOMContentLoaded', function () {
   var menu = document.querySelector('.navigation-list'),
       home = document.querySelector('.home'),
@@ -26,11 +26,6 @@ window.addEventListener('DOMContentLoaded', function () {
   });
   contact.addEventListener('click', function () {
     menu.classList.toggle('navigation-list_active');
-  });
-});
-$(document).ready(function () {
-  $('.accordion-item__trigger').click(function () {
-    $(this).next('accordion-item__content').slideToggle();
   });
 });
 $(document).ready(function () {
