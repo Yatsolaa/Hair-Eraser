@@ -15,14 +15,15 @@
 }
 
 .text-block{
+    text-align: center;
     flex-shrink: 8;
-    font-family: 'Helvetica Neue';
+    font-family: 'Raleway';
     display: flex;
     flex-direction: column;
     row-gap: 32px;
 
     .text-block__header{
-        font-family: 'Helvetica Neue';
+        font-family: 'Raleway';
         font-weight: 400;
         font-size: 50px;
         line-height: 54px;
@@ -35,7 +36,7 @@
         row-gap: 20px;
 
         .text-block__paragraph{
-            font-family: 'Helvetica Neue';
+            font-family: 'Raleway';
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
@@ -45,9 +46,10 @@
 
         .text-block__paragraph_bold{
             color: #151515;
-            display: inline;
+            padding: 35px;
             font-weight: 700;
-            background-color: #F0E4DE;
+            background: linear-gradient(91.72deg, #FADCE1 48.55%, #FADCF2 92.03%);
+            border-radius: 12px;
         }
     }
 }
@@ -72,6 +74,10 @@
         .text-block__paragraph{
             font-size: 14px;
             line-height: 21px;
+        }
+
+        .text-block__paragraph_bold{
+            padding: 25px 16px !important;
         }
     }
 }

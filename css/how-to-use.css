@@ -1,29 +1,37 @@
 .how-to-use-section {
   padding: 60px 15px;
-  background-color: #F0E4DE;
 }
-.how-to-use-section .steps-wrapper .step {
+.how-to-use-section .steps-wrapper {
+  padding: 40px;
+  background: linear-gradient(119.52deg, #FADCE1 54.63%, #FADCF2 80.78%);
+  border-radius: 12px;
+}
+.how-to-use-section .steps-wrapper .step-wrapper {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+.how-to-use-section .steps-wrapper .step-wrapper .step {
   max-width: 750px;
   padding: 25px 0;
 }
-.how-to-use-section .steps-wrapper .step .step__item {
+.how-to-use-section .steps-wrapper .step-wrapper .step .step__item {
   display: inline-block;
   padding: 8px;
   text-transform: uppercase;
-  background: #FED629;
   border-radius: 20px;
   color: #151515;
   font-size: 16px;
   font-weight: 700;
   margin-bottom: 16px;
 }
-.how-to-use-section .steps-wrapper .step .step__header {
+.how-to-use-section .steps-wrapper .step-wrapper .step .step__header {
   font-size: 30px;
   line-height: 54px;
   color: #151515;
   margin-bottom: 16px;
 }
-.how-to-use-section .steps-wrapper .step .step__text {
+.how-to-use-section .steps-wrapper .step-wrapper .step .step__text {
   font-size: 14px;
   line-height: 21px;
   color: #4F4F4F;
@@ -33,14 +41,19 @@
 }
 
 @media (max-width: 768px) {
-  .steps-wrapper .step .step__item {
+  .steps-wrapper .step-wrapper {
+    margin-top: 20px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .steps-wrapper .step-wrapper .step .step__item {
     font-size: 14px !important;
   }
-  .steps-wrapper .step .step__header {
+  .steps-wrapper .step-wrapper .step .step__header {
     font-size: 24px !important;
     line-height: 32px !important;
   }
-  .steps-wrapper .step .step__text {
+  .steps-wrapper .step-wrapper .step .step__text {
     font-size: 14px !important;
     line-height: 21px !important;
   }

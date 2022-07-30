@@ -1,12 +1,3 @@
-.section-header{
-    text-align: center;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 46px;
-    color: #151515;
-    margin-bottom: 40px;
-}
-
 .three-vertical-blocks-section{
     padding: 60px 15px;
 }
@@ -36,9 +27,9 @@
             line-height: 36px;
             color: #333333;
 
-            .yellow-background{
+            /* .yellow-background{
                 background: #FED629;
-            }
+            } */
         }
 
         .advantages__paragraph{
@@ -69,7 +60,6 @@
         flex-direction: column;
 
         .advantages{
-            align-items: center;
 
             .advantages__header{
                 font-size: 26px !important;

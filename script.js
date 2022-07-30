@@ -30,6 +30,8 @@ window.addEventListener('DOMContentLoaded', () => {
   });
 })
 
+
+
 $(document).ready(function(){
     $('.slider-for').slick({
         slidesToShow: 1,
